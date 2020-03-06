@@ -8,6 +8,7 @@ dependencyManagement {
 }
 
 dependencies {
+    compile "org.springframework.security:spring-security-config:$springVersion"
     compile project(":components:rest-support")
 
     compile "org.springframework.boot:spring-boot-starter-web"
